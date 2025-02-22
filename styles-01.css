@@ -40,6 +40,7 @@ main {
 }
 
 .post {
+    
     background-color: white;
     padding: 15px;
     border-radius: 5px;
@@ -47,8 +48,12 @@ main {
 }
 
 .post img {
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
     border-radius: 5px;
+
 }
 
 .post h2 a {
@@ -71,7 +76,9 @@ a {
     text-decoration: none;
 }
 
-p {
-  line-height: 1.8; /* Adjust as needed */
-  margin-bottom: 20px;
-}
+p, 
+.detail {
+    line-height: 1.8; /* Adjust as needed */
+    margin-bottom: 20px;
+  }  
+
