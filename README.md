@@ -5,4 +5,7 @@
 <ul>
   <li>Design and code first page of the blog site.</li>
   <li>Add more pages and continue with the details.</li>
+  <li>Working on all links.</li>
+  <li>Add contact information.</li>
+  <li>Working on CSS to adjust the design.</li>
 </ul>
