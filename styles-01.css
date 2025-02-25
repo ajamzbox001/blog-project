@@ -8,7 +8,7 @@ body {
 
 header {
     background-color: #333;
-    color: white;
+    color: #3d92f3;
     padding: 20px;
     text-align: center;
 }
@@ -40,7 +40,6 @@ main {
 }
 
 .post {
-    
     background-color: white;
     padding: 15px;
     border-radius: 5px;
@@ -72,8 +71,12 @@ footer {
 }
 
 a {
-    color: #007bff;
+    color: #55defc;
     text-decoration: none;
+}
+
+a:hover {
+    color: #3d92f3; /* Change to your desired hover color */
 }
 
 p, 

@@ -8,7 +8,7 @@ body {
 
 header {
     background-color: #333;
-    color: white;
+    color: #3d92f3;
     padding: 20px;
     text-align: center;
 }
@@ -67,8 +67,12 @@ footer {
 }
 
 a {
-    color: #007bff;
+    color: #55defc;
     text-decoration: none;
+}
+
+a:hover {
+    color: #3d92f3; /* Change to your desired hover color */
 }
 
 p {
