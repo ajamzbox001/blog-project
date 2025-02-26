@@ -73,12 +73,12 @@ footer {
 }
 
 a {
-    color: #55defc;
+    color: #3d92f3;
     text-decoration: none;
 }
 
 a:hover {
-    color: #3d92f3; /* Change to your desired hover color */
+    color: #55defc;
 }
 
 p {
