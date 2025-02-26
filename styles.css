@@ -56,6 +56,12 @@ main {
     text-decoration: none;
 }
 
+.date-time {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
 footer {
     background-color: #333;
     color: white;
