@@ -7,10 +7,34 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #3d92f3;
+    position: relative;
+    background-color: #4a4a4a;
     padding: 20px;
     text-align: center;
+    color: white;
+    min-height: 100px; /* Ensures the header has enough height */
+    z-index: 1;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Fills the header properly */
+    background-image: url('/blog-project/blog-header-02.jpeg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    z-index: -1;
+    display: block;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Courier New', monospace;
+    font-size: 2.5em;
 }
 
 nav ul {
@@ -24,8 +48,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #a3c9f4;
     text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f5a6ed;
 }
 
 main {
@@ -76,7 +105,7 @@ a {
 }
 
 a:hover {
-    color: #55defc;
+    color: #f5a6ed;
 }
 
 p, 
