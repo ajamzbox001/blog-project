@@ -78,7 +78,7 @@ main {
 .post img {
     float: left; /* Float the image to the left */
     margin-right: 15px; /* Add some space between the image and the text */
-    width: 40%;
+    width: 50%;
     border-radius: 5px;
 
 }
