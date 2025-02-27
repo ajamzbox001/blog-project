@@ -12,8 +12,12 @@ header {
     padding: 20px;
     text-align: center;
     color: white;
-    min-height: 100px; /* Ensures the header has enough height */
+    min-height: 180px; /* Ensures the header has enough height */
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 header::before {
@@ -26,7 +30,7 @@ header::before {
     background-image: url('/blog-project/blog-header-02.jpeg');
     background-size: cover;
     background-position: center;
-    opacity: 0.5;
+    opacity: 0.6;
     z-index: -1;
     display: block;
 }
@@ -34,7 +38,7 @@ header::before {
 h1 {
     color: #ffffff;
     font-family: 'Courier New', monospace;
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 nav ul {
@@ -48,12 +52,9 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #a3c9f4;
+    color: #d0e4fb;
     text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: #f5a6ed;
+    font-size: 1.1em;
 }
 
 main {
