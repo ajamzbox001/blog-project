@@ -75,10 +75,9 @@ main {
 }
 
 .post img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+    float: left; /* Float the image to the left */
+    margin-right: 15px; /* Add some space between the image and the text */
+    width: 30%;
     border-radius: 5px;
 
 }
