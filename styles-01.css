@@ -36,7 +36,7 @@ header::before {
 }
 
 h1 {
-    color: #ffffff;
+    color: #000000;
     font-family: 'Courier New', monospace;
     font-size: 3em;
 }
@@ -52,9 +52,9 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #d0e4fb;
+    color: #ffffff;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 
 main {
@@ -69,7 +69,7 @@ main {
 }
 
 .post {
-    background-color: white;
+    background-color: #5497b137;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -78,7 +78,7 @@ main {
 .post img {
     float: left; /* Float the image to the left */
     margin-right: 15px; /* Add some space between the image and the text */
-    width: 30%;
+    width: 40%;
     border-radius: 5px;
 
 }
@@ -109,6 +109,6 @@ a:hover {
 
 p, 
 .detail {
-    line-height: 1.8; /* Adjust as needed */
+    line-height: 2.0; /* Adjust as needed */
     margin-bottom: 20px;
 }  

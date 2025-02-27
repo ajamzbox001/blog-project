@@ -69,26 +69,21 @@ main {
 }
 
 .post {
-    background-color: white;
+    background-color: #5497b137;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .post img {
-    width: 100%;
+    width: 20%; /* Qr contact code size */
     border-radius: 5px;
+
 }
 
 .post h2 a {
     color: #333;
     text-decoration: none;
-}
-
-.date-time {
-    font-size: 0.9em;
-    color: #666;
-    margin-bottom: 10px;
 }
 
 footer {
