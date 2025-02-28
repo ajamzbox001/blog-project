@@ -58,7 +58,7 @@ nav ul li a {
 }
 
 main {
-    width: 70%;
+    width: 80%;
     margin: 20px auto;
 }
 
@@ -78,7 +78,7 @@ main {
 .post img {
     float: left; /* Float the image to the left */
     margin-right: 15px; /* Add some space between the image and the text */
-    width: 35%;
+    width: 40%;
     border-radius: 5px;
 
 }
