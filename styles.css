@@ -112,6 +112,6 @@ a:hover {
 
 p, 
 .detail {
-    line-height: 2.0; /* Adjust as needed */
-    margin-bottom: 20px;
+    line-height: 3; /* Adjust as needed */
+    margin-bottom: 25px;
 }  

@@ -76,7 +76,7 @@ main {
 }
 
 .post img {
-    width: 20%; /* Qr contact code size */
+    width: 15%; /* Qr contact code size */
     border-radius: 5px;
 
 }
@@ -107,6 +107,6 @@ a:hover {
 
 p, 
 .detail {
-    line-height: 2.0; /* Adjust as needed */
-    margin-bottom: 20px;
+    line-height: 3; /* Adjust as needed */
+    margin-bottom: 25px;
 }  
