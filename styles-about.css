@@ -78,7 +78,7 @@ main {
 .post img {
     float: left; /* Float the image to the left */
     margin-right: 15px; /* Add some space between the image and the text */
-    width: 35%;
+    width: 31%;
     border-radius: 5px;
 
 }
@@ -109,6 +109,6 @@ a:hover {
 
 p, 
 .detail {
-    line-height: 3; /* Adjust as needed */
+    line-height: 2.5; /* Adjust as needed */
     margin-bottom: 25px;
 }  
