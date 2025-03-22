@@ -76,7 +76,7 @@ main {
 }
 
 .post img {
-    width: 15%; /* Qr contact code size */
+    width: 40%; 
     border-radius: 5px;
 
 }
@@ -110,3 +110,19 @@ p,
     line-height: 2.5; /* Adjust as needed */
     margin-bottom: 25px;
 }  
+
+.social-links {
+    display: flex;
+    gap: 10px; /* Adds space between icons */
+    align-items: center;
+}
+
+.social-links img {
+    width: 40px; /* Adjust size as needed */
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1); /* Adds a hover effect */
+}
