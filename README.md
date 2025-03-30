@@ -8,4 +8,5 @@
   <li>Working on all links.</li>
   <li>Add contact information.</li>
   <li>Working on CSS to adjust the design.</li>
+  <li>Add social media links and hover effect.</li>
 </ul>
